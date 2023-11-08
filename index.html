@@ -12,22 +12,23 @@
 <body>
     <header>
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="number" name="value" id="value" value="20">
+        <input type="number" name="input" id="input" value="20">
         <button id="convert-btn">Convert</button>
     </header>
     <section>
         <div class="card">
             <h2>Length (Meter/Feet)</h2>
-            <h3>20 meters = 65.616 feet | 20 feet = 6.096 meters</h3>
+            <h3 id="length"></h3>
         </div>
         <div class="card">
             <h2>Volume (Liters/Gallons)</h2>
-            <h3>20 liters = 5.284 gallons | 20 gallons = 75.708 liters</h3>
+            <h3 id="volume"></h3>
         </div>
         <div class="card">
             <h2>Mass (Kilograms/Pounds)</h2>
-            <h3>20 kilos = 44.092 pounds | 20 poinds = 9.072 kilos</h3>
+            <h3 id="mass"></h3>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
